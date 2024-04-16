@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-15T10:58:54 IST" name="Default suite" finished-at="2024-04-15T10:58:58 IST" duration-ms="3218">
+    <groups>
+    </groups>
+    <test started-at="2024-04-15T10:58:54 IST" name="Default test" finished-at="2024-04-15T10:58:58 IST" duration-ms="3218">
+      <class name="Tests.ReqResTest">
+        <test-method signature="testGet1()[pri:0, instance:Tests.ReqResTest@22635ba0]" started-at="2024-04-15T10:58:55 IST" name="testGet1" finished-at="2024-04-15T10:58:55 IST" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet1 -->
+        <test-method signature="testGet2()[pri:1, instance:Tests.ReqResTest@22635ba0]" started-at="2024-04-15T10:58:55 IST" name="testGet2" finished-at="2024-04-15T10:58:56 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet2 -->
+        <test-method signature="testPost1()[pri:2, instance:Tests.ReqResTest@22635ba0]" started-at="2024-04-15T10:58:56 IST" name="testPost1" finished-at="2024-04-15T10:58:56 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPost1 -->
+        <test-method signature="testPut1()[pri:3, instance:Tests.ReqResTest@22635ba0]" started-at="2024-04-15T10:58:56 IST" name="testPut1" finished-at="2024-04-15T10:58:57 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPut1 -->
+        <test-method signature="testPatch1()[pri:4, instance:Tests.ReqResTest@22635ba0]" started-at="2024-04-15T10:58:57 IST" name="testPatch1" finished-at="2024-04-15T10:58:57 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatch1 -->
+        <test-method signature="testDelete1()[pri:5, instance:Tests.ReqResTest@22635ba0]" started-at="2024-04-15T10:58:57 IST" name="testDelete1" finished-at="2024-04-15T10:58:58 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete1 -->
+      </class> <!-- Tests.ReqResTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

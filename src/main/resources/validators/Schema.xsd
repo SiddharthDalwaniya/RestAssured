@@ -1,0 +1,19 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" targetNamespace="http://tempuri.org/">
+    <xs:import namespace="http://schemas.xmlsoap.org/soap/envelope/" schemaLocation="http://schemas.xmlsoap.org/soap/envelope/"/>
+    <xs:element name="Envelope" type="soap:Envelope"/>
+    <xs:complexType name="Envelope">
+        <xs:sequence>
+            <xs:element name="Body" type="soap:Body"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Body">
+        <xs:sequence>
+            <xs:element name="AddResponse" type="tns:AddResponseType"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="AddResponseType">
+        <xs:sequence>
+            <xs:element name="AddResult" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
